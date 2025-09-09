@@ -1,0 +1,55 @@
+// Application constants
+const USER_ROLES = {
+  ADMIN: 'ADMIN',
+  USER: 'USER',
+  STORE_OWNER: 'STORE_OWNER'
+};
+
+const HTTP_STATUS = {
+  OK: 200,
+  CREATED: 201,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  NOT_FOUND: 404,
+  CONFLICT: 409,
+  INTERNAL_SERVER_ERROR: 500
+};
+
+const PAGINATION_DEFAULTS = {
+  PAGE: 1,
+  LIMIT: 10,
+  MAX_LIMIT: 100
+};
+
+const RATE_LIMITS = {
+  GENERAL: {
+    WINDOW_MS: 15 * 60 * 1000, // 15 minutes
+    MAX_REQUESTS: 100
+  },
+  AUTH: {
+    WINDOW_MS: 15 * 60 * 1000, // 15 minutes
+    MAX_REQUESTS: 5
+  },
+  RATING: {
+    WINDOW_MS: 60 * 1000, // 1 minute
+    MAX_REQUESTS: 10
+  }
+};
+
+const VALIDATION_RULES = {
+  PASSWORD_MIN_LENGTH: 6,
+  NAME_MAX_LENGTH: 100,
+  EMAIL_MAX_LENGTH: 255,
+  ADDRESS_MAX_LENGTH: 500,
+  RATING_MIN: 1,
+  RATING_MAX: 5
+};
+
+module.exports = {
+  USER_ROLES,
+  HTTP_STATUS,
+  PAGINATION_DEFAULTS,
+  RATE_LIMITS,
+  VALIDATION_RULES
+};

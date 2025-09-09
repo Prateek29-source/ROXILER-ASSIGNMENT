@@ -1,0 +1,14 @@
+2025-09-09 14:20:38:2038 [35mhttp[39m: [35mPOST /api/auth/login[39m
+2025-09-09 14:20:38:2038 [32minfo[39m: [32mUser login attempt: pratiktelkapalliwar225@gmail.com[39m
+2025-09-09 14:20:38:2038 [32minfo[39m: [32mUser logged in successfully: pratiktelkapalliwar225@gmail.com[39m
+2025-09-09 14:20:38:2038 [35mhttp[39m: [35mPOST /api/auth/login 200 - 199ms[39m
+2025-09-09 14:20:39:2039 [35mhttp[39m: [35mGET /api/stores?[39m
+2025-09-09 14:20:39:2039 [35mhttp[39m: [35mGET /api/stores? 304 - 145ms[39m
+2025-09-09 14:20:39:2039 [35mhttp[39m: [35mGET /api/stores?[39m
+2025-09-09 14:20:39:2039 [35mhttp[39m: [35mGET /api/stores? 304 - 20ms[39m
+2025-09-09 14:20:43:2043 [35mhttp[39m: [35mPOST /api/stores/1/ratings[39m
+2025-09-09 14:20:43:2043 [32minfo[39m: [32mSubmitting rating for store 1 by user 1[39m
+2025-09-09 14:20:43:2043 [32minfo[39m: [32mRating submitted successfully for store 1 by user 1[39m
+2025-09-09 14:20:43:2043 [35mhttp[39m: [35mPOST /api/stores/1/ratings 200 - 79ms[39m
+2025-09-09 14:20:43:2043 [35mhttp[39m: [35mGET /api/stores?[39m
+2025-09-09 14:20:43:2043 [35mhttp[39m: [35mGET /api/stores? 200 - 12ms[39m
